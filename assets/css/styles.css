@@ -26,6 +26,7 @@ a{
     height: 200px;
     border-radius: 20px;
     margin: 20px;
+    
 }
 .japan{
     font-weight: bold;
@@ -34,4 +35,5 @@ a{
     height: 218px;
     text-align: center;
     background-image: linear-gradient( to right, #EE818C 25% ,#FFC6CB 100%);
+    border-radius: 40px;
 }
