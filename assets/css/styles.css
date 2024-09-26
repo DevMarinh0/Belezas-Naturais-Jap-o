@@ -5,6 +5,7 @@ body{
     color: #BF0606;
     background-image: linear-gradient( to left, #FADADD 30%,#DB939A 95%);
     font-weight: bold;
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -19,5 +20,18 @@ a{
     text-align: center;
     background-image: linear-gradient( to right, #EE818C 25% ,#FFC6CB 100%);
     border-radius: 70px 0px 70px 0px;
-
+}
+.img_menor{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.japan{
+    font-weight: bold;
+    font-size: 16px;
+    width: 1114px;
+    height: 218px;
+    text-align: center;
+    background-image: linear-gradient( to right, #EE818C 25% ,#FFC6CB 100%);
 }
