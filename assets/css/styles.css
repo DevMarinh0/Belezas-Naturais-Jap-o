@@ -27,6 +27,14 @@ nav a {
     font-weight: bold;
     margin-left: 30px; 
 }
+footer a{
+    text-decoration: none;
+    color: rgb(13, 139, 242);
+}
+footer a:hover{
+    color: blue;
+    transition: color 0.5s;
+}
 
 nav a:hover {
     color: #FE7254;
@@ -35,6 +43,10 @@ nav a:hover {
 iframe{
     border-radius: 20px;
     margin: 0 20px 0 20px; 
+}
+footer{
+    text-align: center;
+    font-weight: bold;
 }
 #titulo{
     font-weight: bold;
