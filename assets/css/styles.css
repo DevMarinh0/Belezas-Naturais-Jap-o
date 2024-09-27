@@ -7,10 +7,37 @@ body{
     font-weight: bold;
     margin: 0;
 }
-a{
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+header img {
+    width: 75px; 
+    height: 60px;
+}
+
+nav a {
     text-decoration: none;
     color: #BF0606;
     font-weight: bold;
+    margin-left: 30px; 
+}
+
+nav a:hover {
+    color: #FE7254;
+    transition: color 0.5s;
+}
+iframe{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 20px;
 }
 #titulo{
     font-weight: bold;
@@ -20,15 +47,40 @@ a{
     text-align: center;
     background-image: linear-gradient( to right, #EE818C 25% ,#FFC6CB 100%);
     border-radius: 70px 0px 70px 0px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 80px;
 }
-.img_menor{
+.titulo-belezas-naturais{
+    font-weight: bold;
+    font-size: 26px;
+    width: 480px;
+    height: 151px;
+    text-align: center;
+    background-image: linear-gradient( to right, #EE818C 25% ,#FFC6CB 100%);
+    border-radius: 70px 0px 70px 0px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 60px;
+    margin-top: 101px;
+}
+figure {
+    display: flex;
+    justify-content: center; 
+    gap: 60px; 
+    margin: 0 auto; 
+}
+
+.img_menor {
     width: 300px;
     height: 200px;
     border-radius: 20px;
-    margin: 20px;
-    
 }
-.japan{
+.conteudo{
     font-weight: bold;
     font-size: 16px;
     width: 1114px;
@@ -36,4 +88,33 @@ a{
     text-align: center;
     background-image: linear-gradient( to right, #EE818C 25% ,#FFC6CB 100%);
     border-radius: 40px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 56px;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.conteudo-belezas-naturais{
+    font-weight: bold;
+    font-size: 16px;
+    width: 1114px;
+    height: 293px;
+    text-align: center;
+    background-image: linear-gradient( to right, #EE818C 25% ,#FFC6CB 100%);
+    border-radius: 40px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 56px;
+    margin-top: 51px;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.img-maior{
+    height: 400px;
+    width: 615px;
+    border-radius: 30px;
 }
