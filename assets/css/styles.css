@@ -33,11 +33,8 @@ nav a:hover {
     transition: color 0.5s;
 }
 iframe{
-    margin: 0 auto; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
     border-radius: 20px;
+    margin: 0 20px 0 20px; 
 }
 #titulo{
     font-weight: bold;
@@ -117,4 +114,19 @@ figure {
     height: 400px;
     width: 615px;
     border-radius: 30px;
+}
+.iframe-maps{
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+#youtube{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 800px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
