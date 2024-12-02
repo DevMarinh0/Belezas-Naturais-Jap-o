@@ -46,7 +46,7 @@
         <img class="img-maior" src="../assets/img/monte fuji 2.jpg" alt="Monte Fuji">
     </figure>
 
-    <section class="conteudo-belezas-naturais">
+    <section class="conteudo-belezas-naturais" id="info-fuji">
         O Monte Fuji (em Japonês Fuji-san) é a mais alta montanha da ilha de Honshu e de todo o Arquipelago Japonês. É
         um Vulcão ativo, porém de baixo risco de erupção.<br><br>
         O monte Fuji localiza-se a oeste de Tóquio (de onde pode ser visto num dia limpo) próximo da costa do Oceano
@@ -55,6 +55,10 @@
         O monte Fuji é um dos Símbolos mais conhecidos do Japão, sendo frequentemente retratado em obras
         de Arte e Fotografias e recebendo muitas visitas de alpinistas turistas.<br><br>
     </section>
+    <div class="botao-container">
+        <button id="botao-fuji" class="botaoConteudo" onclick="conteudoFuji('info-fuji')">Mostrar mais</button>
+    </div>
+
 
     <section class="titulo-belezas-naturais">
         Parque Ueno
@@ -65,7 +69,7 @@
         <img class="img-maior" src="../assets/img/parque ueno 2.jpg" alt="Parque Ueno">
     </figure>
 
-    <section class="conteudo-belezas-naturais">
+    <section class="conteudo-belezas-naturais" id="info-ueno">
         O Parque Ueno (上野公園 Ueno Kōen) é um espaçoso parque público no distrito de Ueno do bairro de Taito, Tóquio,
         Japão. O parque foi fundado em 1873 em terras antigamente pertencentes ao Templo de Kan´ei-ji. Entre os
         primeiros parques públicos do país, ele foi fundado seguindo o exemplo ocidental como parte da inspiração e
@@ -74,6 +78,12 @@
         mais recentes, o parque e suas atrações atraíram mais de dez milhões de visitantes por ano, fazendo-a o parque
         urbano mais popular do Japão
     </section>
+
+    <div class="botao-container">
+        <button id="botao-ueno" class="botaoConteudo" onclick="conteudoParqueUeno('info-ueno')">Mostrar
+            mais</button>
+    </div>
+
 
     <section class="titulo-belezas-naturais">
         Cachoeira de Kegon
@@ -84,7 +94,7 @@
         <img class="img-maior" src="../assets/img/Cachoeira Kegon.jpeg" alt="Cataratas de Kegon">
     </figure>
 
-    <section class="conteudo-belezas-naturais">
+    <section class="conteudo-belezas-naturais" id="info-kegon">
         Cachoeira de Kegon (華厳滝 Kegon Taki?) localizam-se no Lago Chuzenji (fonte do Rio Oshiri) no Parque Nacional
         de Nikko, perto da cidade de Nikkō, Tochigi, Japão. As cataratas foram formadas quando o Rio Daiya foi retraçado
         pelo fluxo de lava. Cerca de doze cachoeiras menores situam-se atrás e dos lados das Cataratas de Kegon, vazando
@@ -93,6 +103,11 @@
         Com 97 m de altura, são uma das três maiores cachoeiras do Japão. No outono, o tráfego na rodovia de Nikko para
         Chuzenji pode às vezes aumentar com os visitantes vindo ver as cores do outono.
     </section>
+
+    <div class="botao-container">
+        <button id="botao-kegon" class="botaoConteudo" onclick="conteudoCachoeiraKegon('info-kegon')">Mostrar
+            mais</button>
+    </div>
 
     <section class="titulo-belezas-naturais">
         Google Maps Monte Fuji
@@ -143,16 +158,19 @@
         Video do Youtube Sobre<br> as Belezas Naturais do Japão
     </section>
 
-        <iframe id="youtube" src="https://www.youtube.com/embed/g4bDe-OV4xA" title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
+    <iframe id="youtube" src="https://www.youtube.com/embed/g4bDe-OV4xA" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
 
     <footer>
         <p>&copy Todos os Direitos Reservados</p>
         <P><img src="../assets/img/github.png" alt="Github"><a href="https://github.com/DevMarinh0">DevMarinho</a></P>
-        <P><img src="../assets/img/github.png" alt="Github"><a href="https://github.com/https://github.com/R0bertMC">Robert Martins</a></P>
+        <P><img src="../assets/img/github.png" alt="Github"><a
+                href="https://github.com/https://github.com/R0bertMC">Robert Martins</a>
     </footer>
+
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
